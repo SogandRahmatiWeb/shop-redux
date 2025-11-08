@@ -1,0 +1,148 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+.home{
+      
+     
+     box-shadow: 1px 1px 5px 3px #56b76c ;
+     border-radius: 3px;
+     /* background-color: rgb(100, 180, 100); */
+   display: block;
+     &:hover{
+        background-color: rgb(161, 238, 161);
+        
+    }
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+.ProductDetails {
+   font-size: 20px;
+  color: rgb(8, 74, 8);
+  text-shadow:1px 1px 7px rgb(5, 64, 5) !important ;
+}
+.cartpage{
+  font-size: 20px;
+  color: rgb(8, 74, 8);
+  text-shadow:1px 1px 7px rgb(5, 64, 5) !important ;
+}
+.products{
+   font-size: 22px;
+  color: rgb(8, 74, 8);
+  text-shadow:1px 1px 7px rgb(5, 64, 5) !important ;
+}
+.view{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(182, 236, 207);
+    &:hover{
+        background-color: rgb(131, 225, 173);
+    }
+}
+
+.cart{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.bdec{
+    background-color: rgb(190, 216, 138);
+    border-radius: 50%;
+    width: 25px;
+    border: 1px solid rgb(0, 9, 0);
+    cursor: pointer;
+}
+.binc{
+    background-color: rgb(190, 216, 138);
+    border-radius: 50%;
+    width: 25px;
+    border: 1px solid rgb(0, 9, 0);
+    cursor: pointer;
+}
+.bremove{
+     background-color: rgb(190, 216, 138);
+    border-radius: 15%;
+    width: 25px;
+    cursor: pointer;
+
+}
+.price{
+  font-size: 18px;
+   padding: 15px;
+   color: rgb(12, 65, 36);
+
+}
+.total{
+    font-size: 20px;
+    color: rgb(4, 85, 39);
+    text-shadow: 10px 10px 15px rgb(2, 51, 2);
+}
+.homecart{
+      box-shadow: 1px 1px 4px 2px #56b76c ;
+     border-radius: 3px;
+     background-color: rgb(180, 234, 180);
+    border:none;
+     display: block;
+     &:hover{
+        background-color: rgb(138, 212, 138);
+    }
+    
+}
+.addtocart{
+    background-color: rgb(203, 228, 153);
+    border: 2px solid rgb(126, 201, 126);
+    border-radius: 80px;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 7px;
+    &:hover{
+        background-color: rgb(161, 238, 161);
+    }
+}
+.clothes{
+    box-shadow: 1px 1px 5px 7px rgb(191, 238, 191);
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover{
+       filter: brightness(80%);
+        transform: translatex(0);
+    }
+}
+.footer{
+    color: #1b8f3c;
+     text-shadow: 1px 1px 5px  #072734 ;
+     box-shadow: 1px 1px 7px 5px #56b76c ;
+     border-radius: 3px;
+     margin: 20px;
+    padding: 15px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
